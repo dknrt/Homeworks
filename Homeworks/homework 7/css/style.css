@@ -1,0 +1,310 @@
+body {
+    background-image: url(../img/phone.png);
+    background-size: 100%;
+}
+
+
+.header-container {
+    display: flex;
+    padding: 18px 79px;
+    background-color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link-block {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #FFF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+.header-list {
+    display: flex;
+    gap: 26px;
+    margin-left: 704px;
+    justify-content: end;
+}
+
+.menu-image {
+    width: 21px;
+    height: 24px;
+    flex-shrink: 0; 
+}
+
+.txt {
+    color: #FFF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    line-height: 14px; 
+    margin-left: 20px;
+    padding-left: 27px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    /* border-color: rgba(0, 0, 0, 0.5); */
+}
+
+.header-link {
+    color: #FFF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    line-height: 14px; 
+}
+
+.accent {
+    color: #FFF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    line-height: 14px; 
+}
+
+.account-creating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container {
+    background-color: #fff;
+    width: 444px;
+    height: 584px; 
+    padding: 31px 60px 38px 60px;
+    position: relative;
+}
+
+.container::before{
+    content: "";
+    border: 1px solid #3CB878;
+    background-color: #3CB878;
+    width: 18px;
+    height: 18px;   
+    display: block;
+    position: absolute;
+    top: 31px;
+    left: 0;
+    
+}
+
+.main-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-registration-link {
+    color: #434343;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.main-login-link {
+    color: #3CB878;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.block-button {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 15px;
+}
+
+.facebook-icon {
+    width: 24px;
+    height: 24px;
+    display: block;
+    position: absolute;
+    margin-left: 11px;
+}
+
+.facebook-btn {
+    display: flex;
+    align-items: center;
+    padding-top: 17px;
+    padding-right: 22px;
+    padding-bottom: 17px;
+    border: 1px solid #305DB8;
+    background-color: #305DB8;
+    width: 160px;
+    position: relative;
+    height: 48px;
+    color: #FFF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 16px; 
+    border-radius: 4px;
+}
+
+.google-btn {
+    display: flex;
+    padding-right: 27px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border: 1px solid #DF4A32;
+    background-color: #DF4A32;
+    height: 48px;
+    width: 160px;
+    color: #FFF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 4px;
+    background: url(../img/g+.png) #DF4A32 0% no-repeat;
+    background-size: 30px 19px;
+    background-position: 12px 15px;
+}
+
+.facebook-btn::before{
+    border-left: 1px solid #000;
+    content: "";
+    margin-right: 18px;
+    margin-left: 48px;
+    height: 28px;
+    width: 1px;
+    opacity: 0.1;
+}
+
+.google-btn::before{
+    border-left: 1px solid #000;
+    content: "";
+    padding-right: 30px;
+    margin-left: 49px;
+    height: 28px;
+    width: 1px;
+    opacity: 0.1;
+    display: block;
+    position: relative;
+    bottom: 7px;
+}
+
+.text {
+    margin-top: 31px;
+    text-align: center;
+    position: relative;
+}
+
+.container p::before {
+    display: block;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #F2F2F2;
+    top: 11px;
+    right: 170px;
+    width: 148px;
+    margin-right: 5px;
+}
+
+.container p::after {
+    display: block;
+    content: "";
+    position: absolute;
+    border-bottom: 1px solid #F2F2F2;
+    top: 11px;
+    left: 170px;
+    width: 148px;
+    margin-left: 5px;
+}
+
+.forms-element {
+    width: 322px;
+    height: 44.083px; 
+    padding: 15px 20px 15px;
+    border: 1px solid #F2F2F2;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.reading-element {
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.21));
+    margin-top: 0;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.conditions {
+    display: none;
+}
+
+.terms-and-conditions-form::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    vertical-align: middle;
+    margin-right: 8px;
+    border: 1px solid #F2F2F2; 
+
+}
+
+.conditions:checked + label::before{
+    background-color: #fff;
+    content: "";
+    text-align: center;
+    background: url(../img/vector1.svg) no-repeat;
+    background-size: 100%;
+}
+
+.terms-link {
+    color: #3CB878;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 14px;
+    line-height: 14px; 
+}
+
+.account-create-btn {
+    color: #FFF;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 16px;
+    line-height: 16px; 
+    border: 1px solid rgba(60, 184, 120, 0.80);
+    border-radius: 4px; 
+    background: rgba(60, 184, 120, 0.80); 
+    padding: 16px 99px;
+    margin-top: 20px;
+    width: 324px;
+}
+
+.link-hover:hover {
+    color: #01813F; 
+}
+
+.hover:hover {
+    color: #01813F; 
+    text-decoration: underline;
+}
+
+.facebook-btn:hover {
+    background-color: #022263;
+}
+.google-btn:hover {
+    background-color: #AB1F09;
+}
+
+.account-create-btn:hover {
+    background-color: #01813F;
+}
+
+a:hover > svg path {
+    fill: #01813F;
+}
+
+.forms-element:focus{
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.21));
+    outline: none;
+}
