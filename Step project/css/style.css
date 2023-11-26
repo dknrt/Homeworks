@@ -1,0 +1,881 @@
+.menu-container{
+    display: flex;
+    margin: 30px 36px;
+    align-items: center;
+}
+
+.logo{
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.64px; 
+}
+
+.header-btn {
+    margin-left: 44px;
+    width: 98px;
+    color: #EEE;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    border-radius: 4px;
+    background: #0F8277; 
+    border: 1px solid #0F8277;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 40px;
+    position: relative;
+    
+}
+
+.header-btn::after {
+    content:""; 
+    border-bottom: 2px solid #EEE;
+    width: 8px;
+    height: 8px; 
+    border-left: 2px solid #EEE;
+    background-color: #0F8277;
+    position: absolute;
+    margin-left: 8px;
+    transform: translateY(50%) rotate(-45deg);
+}
+
+.form-element{
+    display: flex;
+    align-items: center;
+    margin-left: 44px;
+    border: 1px solid #5C5C5C;
+    border-radius: 4px; 
+}
+
+.search-element {
+    width: 330px;
+    padding-left: 12px;
+    height: 36px;
+    color: #5C5C5C;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.element-btn {
+    padding: 10px;
+    background: #0F8277;  
+    height: 36px;
+}
+
+.navigation-menu{
+    margin-left: auto; 
+}
+
+.nav-menu-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.nav-menu-item-link{
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.link-block-menu {
+    display: flex;
+    margin-left: 104px;
+    gap: 16px;
+    align-items: center;
+}
+
+.link-menu {
+    color: #0F8277;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.registration-link {
+    padding: 10px 12px;
+    border: 1px solid #0F8277;
+    background: #0F8277; 
+}
+
+.registration {
+    color: #EEE;
+}
+
+.offer-container {
+    border-radius: 12px;
+    background: #DBF3ED; 
+    margin: 30px 36px;
+    display: flex;
+    padding-bottom: 30px;
+    padding-top: 39px;
+}
+
+.offer-information {
+    margin-top: 170px;
+    margin-left: 110px;
+    width: 512px;
+}
+
+.header-title {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.txt {
+    margin-top: 32px;
+    width: 482px;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.title-button {
+    margin-top: 32px;
+    color: #EEE;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid #0F8277;
+    background: #0F8277; 
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.more-information-btn {
+    background-color: #DBF3ED;
+    color: #0F8277;
+    margin-left: 24px;
+}
+
+.offer-photo {
+    margin-left: auto;
+    margin-right: 54px;
+}
+
+.container {
+    width: 1368px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.program-container {
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 80px;
+}
+
+.main-text {
+    color: #0F8277;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%; 
+}
+
+.offers {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-top: 12px;
+}
+
+.description {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 12px;
+}
+
+.card-program-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.card {
+    width: 416px;
+    border: 1px solid #dddddd;
+}
+
+.program-photo {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.card-description {
+    padding: 24px 16px;
+}
+
+.company-block {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.company{
+    color: #000; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.program-name {
+    margin-top: 16px;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.diploma-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #0F8277; 
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 82px;
+}
+
+.start-studying {
+    margin-top: 53px;
+}
+
+.course-photo {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.course-card {
+    width: 406px;
+    border: 1px solid #dddddd;
+}
+
+.link-course-block {
+    margin-top: 86px;
+}
+
+.link-course {
+    color: #0F8277;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.start-course {
+    margin-top: 57px;
+}
+
+.another-courses {
+    margin-top: 43px;
+}
+
+.another-course-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.another-course-link {
+    color: #0F8277;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.topics-container {
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 80px;
+}
+
+.offers-category {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;  
+}
+
+.category-container {
+    display: flex;
+    gap: 24px;
+}
+
+.category-card {
+    width: 306px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.direction-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category-name {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.program-direction {
+    color: #0F8277;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.number-of-students {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.anouther-topic {
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.topics-link {
+    color: #0F8277;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    align-items: center;
+    display: flex;
+    gap: 16px;
+}
+
+.partner-section {
+    background: #DBF3ED; 
+}
+
+.company-university-container {
+    padding: 80px 36px;
+    margin-top: 83px;
+}
+
+.cooperation {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+
+.partner-name {
+    display: flex;
+    gap: 36px;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.business-container {
+    display: flex;
+    gap: 72px;
+    margin-top: 80px;
+}
+
+.offer-business-information {
+    width: 636px;
+    margin-top: 68px;
+    padding-left: 36px;
+    margin-right: 36px;
+}
+
+.offers-business {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.descr-txt {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    margin-top: 32px;
+}
+
+.sales-contact-btn {
+    color: #EEE;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 120%;
+    padding: 10px 12px;
+    border: 1px solid #0F8277;
+    border-radius: 4px;
+    background: #0F8277; 
+    margin-top: 32px;
+}
+
+.organizations-block {
+    display: grid;
+    grid-template-columns: 196px 196px 196px ;
+}
+
+.organization-card {
+    width: 196px;
+    height: 136px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.procter-card {
+    border-left: 1px solid #BABABA;
+    border-right: 1px solid #BABABA;
+}
+
+.tltl-card {
+    border: 1px solid #BABABA;
+}
+
+.image-30-card {
+    border-left: 1px solid #BABABA;
+    border-right: 1px solid #BABABA;
+}
+
+.danone-card {
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+}
+
+.emirates-card {
+    border-top: 1px solid #BABABA;
+    border-bottom: 1px solid #BABABA;
+}
+
+.plan-section {
+    background: #DBF3ED; 
+    margin-top: 70px;
+    padding: 80px 36px 100px 36px;
+}
+
+.program-plan-container {
+    display: flex;
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.plan-title {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.plan-card {
+    padding: 56px;
+    background: #fff;
+    border-radius: 24px;
+    border: 1px solid #0F8277; 
+    width: 416px;
+}
+
+.plan-name {
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.plan-description {
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 27px;
+}
+
+.price-block {
+    display: flex;
+    gap: 16px;
+    margin-top: 27px;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-price {
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.accent {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; 
+    text-transform: uppercase; 
+}
+
+.plan-link-block {
+    padding: 10px 12px;
+    margin-top: 27px;
+    background-color: #0F8277; 
+    width: 119px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #0F8277;
+}
+
+.program-link {
+    color: #F6FDFF;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.72px; 
+}
+
+.possibility {
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 2px solid #0F8277;
+}
+
+.posibility-description {
+    margin-top: 16px;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.link-place {
+    margin-top: 75px;
+}
+
+.plan-link-place {
+    margin-top: 46px;
+}
+
+.card-color {
+    background: #0F8277;
+}
+
+.txt-color {
+    color: #FFF;
+}
+
+.txt-color-description {
+    color: #FFF;
+}
+
+.color {
+    border-color: #FFF;
+}
+
+.posibility-text-block {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.text-block-descr {
+    align-items: normal;
+}
+
+.posibility-text-block::before {
+    margin-right: 16px;
+    content: "";
+    background: url(../img/bullit-green.png) no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.text-block-descr::before {
+    margin-right: 16px;
+    content: "";
+    background: url(../img/bullit-white.png) no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 16px;
+}
+
+.students-title {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.students-gallery-container {
+    margin-top: 80px;
+    margin-left: 36px;
+    margin-right: 36px;
+}
+
+.students-gallery {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 306px 306px 306px 306px;
+    gap: 24px;
+}
+
+.students-gallery div:nth-child(2) {
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+
+.form-section {
+    background: url(../img/image-32.png);
+    width: 1368px;
+    height: 727px;
+    padding-top: 65px; 
+    margin-top: 76px;
+    position: relative;
+    z-index: 3;
+}
+
+.form-section::after {
+    position: absolute;
+    content: '';
+    width: 1368px;
+    height: 727px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.form-container {
+    width: 565px;
+    background: #DBF3ED;
+    border-radius: 24px; 
+    border: 1px solid #DBF3ED;
+    padding: 30px;
+    position: absolute;
+    z-index: 2;
+    left: 401px;
+    top: 65px;
+}
+
+.form-title {
+    text-align: center;
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+}
+
+.form-description {
+    color: #000;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 24px;
+}
+
+.form {
+    margin-top: 24px;
+}
+
+.form-element-text {
+    margin-top: 8px;
+    width: 505px;
+    height: 48px;
+    margin-left: 0;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #0F8277;
+    background: #FDFDFD; 
+    color: #8E8E8E;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.label-element {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.form-element-message {
+    margin-top: 8px;
+    width: 505px;
+    height: 104px;
+    margin-left: 0;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #0F8277;
+    background: #FDFDFD; 
+    color: #8E8E8E;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.form-button {
+    color: #F6FDFF;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.72px; 
+    margin-top: 24px;
+    padding: 10px 12px;
+    border-radius: 4px;
+    background: #0F8277; 
+    border: 1px solid #0F8277;
+    width: 196px;
+}
+
+.footer-container {
+    padding: 64px 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-link-block {
+    width: 306px;
+}
+
+.footer-name {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.64px; 
+}
+
+.footer-description {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-top: 16px;
+}
+
+.footer-link-block {
+    width: 306px;
+}
+
+.footer-list {
+    display: flex;
+    gap: 24px;
+    margin-left: 162px;
+}
+
+.list-item-link-instagram {
+    background: url(../img/instagram.svg);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.list-item-link-facebook {
+    background: url(../img/facebook.svg);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.list-item-link-linkedin {
+    background: url(../img/linkedin.svg);
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.copyright {
+    margin-top: 60px;
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+
